@@ -12,8 +12,8 @@ import java.util.jar.JarFile;
 
 public class Launcher {
     public static final String ATTACH_ARG = "--attach";
-    public static final String VERSION = "2022.2.0";
-    public static final int VERSION_NUMBER = 202201000;
+    public static final String VERSION = "2025.03.26";
+    public static final int VERSION_NUMBER = 202503260;
 
     private static boolean loaded = false;
 
@@ -93,7 +93,7 @@ public class Launcher {
                 "\n\n" +
                 "    A javaagent framework :)\n" +
                 "\n" +
-                "    https://github.com/ja-netfilter/ja-netfilter\n" +
+                "    https://github.com/offsoc/ja-netfilter\n" +
                 "\n" +
                 "  ============================================================================  \n\n";
 
