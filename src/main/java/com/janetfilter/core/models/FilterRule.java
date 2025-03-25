@@ -57,4 +57,8 @@ public class FilterRule {
     public String toString() {
         return "{type=" + type + ", rule=" + rule + "}";
     }
+
+    public String getFormattedDetails() {
+        return String.format("VM Details: [Type: %s, Rule: %s]", type, rule);
+    }
 }
