@@ -48,4 +48,8 @@ public class VMDescriptor {
     public String toString() {
         return id + " " + className;
     }
+
+    public String getFormattedDetails() {
+        return String.format("VM Details: [ID: %s, ClassName: %s, Args: %s]", id, className, args);
+    }
 }

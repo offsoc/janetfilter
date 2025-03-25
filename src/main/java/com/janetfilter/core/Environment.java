@@ -124,4 +124,9 @@ public final class Environment {
                 ", \n\tattachMode = " + attachMode +
                 "\n}";
     }
+
+    public String getFormattedDetails() {
+        return String.format("VM Details: [PID: %s, Version: %s, VersionNumber: %d, AppName: %s, BaseDir: %s, AgentFile: %s, ConfigDir: %s, PluginsDir: %s, LogsDir: %s, NativePrefix: %s, DisabledPluginSuffix: %s, AttachMode: %b]",
+                pid, version, versionNumber, appName, baseDir, agentFile, configDir, pluginsDir, logsDir, nativePrefix, disabledPluginSuffix, attachMode);
+    }
 }
